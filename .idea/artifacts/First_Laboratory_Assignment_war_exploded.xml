@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="First Laboratory Assignment:war exploded">
+    <output-path>$PROJECT_DIR$/target/First_Laboratory_Assignment-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>First Laboratory Assignment</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="First Laboratory Assignment" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.github.pemistahl:lingua:1.2.2" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+          <element id="library" level="project" name="Maven: com.squareup.moshi:moshi:1.13.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:2.10.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" />
+          <element id="library" level="project" name="Maven: com.squareup.moshi:moshi-kotlin:1.13.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.6.0" />
+          <element id="library" level="project" name="Maven: it.unimi.dsi:fastutil:8.5.8" />
+          <element id="library" level="project" name="Maven: org.jfree:jfreechart:1.5.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/First_Laboratory_Assignment-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="First Laboratory Assignment/web/Web" />
+    </root>
+  </artifact>
+</component>
